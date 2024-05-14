@@ -7,7 +7,7 @@ Group project in SQL @ kodehode.
 ## Assignment tasks
 - [ ] Create the database and tables according to instructions and image given
 - [ ] Insert the data given in excel/csv file in to respective tables
-- [ ] Answer the following questions
+- Answer the following questions
   - [ ] From Movie Table, write a SQL query to find the name and year of the movies. Return movie title, movie release year.
   - [ ] From Movie Table, write a SQL query to find when the movie 'American Beauty' released. Return movie release year.
   - [ ] From Movie Table, write a SQL query to find the movie that was released in 1999. Return movie title.
@@ -19,10 +19,11 @@ Group project in SQL @ kodehode.
   - [ ] From Movie Table, write a SQL query to find the movie titles that contain the word 'Boogie Nights'. Sort the result-set in ascending order by movie year. Return movie ID, movie title and movie release year.
   - [ ] From actor Table, write a SQL query to find those actors with the first name 'Woody' and the last name 'Allen'. Return actor ID.
 
-## Bonus tasks
+## Self-imposed bonus tasks
 - [ ] Create a gui to access data
 - [ ] Support creation of data
 - [ ] Parse excel/csv file for automatic import
+- [ ] Incorporate C# with Linq (@Jorgen)
 
 ## Assesment criteria
 
