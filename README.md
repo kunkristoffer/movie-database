@@ -27,5 +27,5 @@ Group project in SQL @ kodehode.
 
 ## Assesment criteria
 
-### Todo's & links
+## Todo's & links
 - https://learn.microsoft.com/en-us/dotnet/csharp/linq/
