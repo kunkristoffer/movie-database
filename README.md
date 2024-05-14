@@ -26,6 +26,9 @@ Group project in SQL @ kodehode.
 - [ ] Incorporate C# with Linq (@Jorgen)
 
 ## Assesment criteria
+Work in the group to create the tables and answering the queries. So that everyone in the group create same kind of tables.
+You can maintain your own document to save the queries which you answered. Try to answer these queries by next class.
 
 ## Todo's & links
 - https://learn.microsoft.com/en-us/dotnet/csharp/linq/
+- https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient?view=net-8.0
