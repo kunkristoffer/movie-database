@@ -5,12 +5,12 @@ Group project in SQL @ kodehode.
 ![Alt text](assets/visualization.jpg?raw=true "Visualization of projects schema structure")
 
 ## Assignment tasks
-- [ ] Create the database and tables according to instructions and image given
-- [ ] Insert the data given in excel/csv file in to respective tables
+- [x] Create the database and tables according to instructions and image given
+- [x] Insert the data given in excel/csv file in to respective tables
 ####
-- [ ] From Movie Table, write a SQL query to find the name and year of the movies. Return movie title, movie release year.
-- [ ] From Movie Table, write a SQL query to find when the movie 'American Beauty' released. Return movie release year.
-- [ ] From Movie Table, write a SQL query to find the movie that was released in 1999. Return movie title.
+- [x] From Movie Table, write a SQL query to find the name and year of the movies. Return movie title, movie release year.
+- [x] From Movie Table, write a SQL query to find when the movie 'American Beauty' released. Return movie release year.
+- [x] From Movie Table, write a SQL query to find the movie that was released in 1999. Return movie title.
 - [ ] From Movie Table, write a SQL query to find those movies, which were released before 1998. Return movie title.
 - [ ] From Movie Table & Reviewer table, write a SQL query to find the name of all reviewers and movies together in a single list.
 - [ ] From Rating Table & Reviewer table, write a SQL query to find all reviewers who have rated seven or more stars to their rating. Return reviewer name.
