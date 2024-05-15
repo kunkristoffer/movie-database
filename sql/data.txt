@@ -1,3 +1,5 @@
+USE MOVIES;
+
 INSERT INTO actor (act_id, act_fname, act_lname, act_gender)
 VALUES
 (101,'James','Stewart','M'),
@@ -27,19 +29,19 @@ VALUES
 
 INSERT INTO genres (gen_id, gen_title)
 VALUES
-(1001,Action),
-(1002,Adventure),
-(1003,Animation),
-(1004,Biography),
-(1005,Comedy),
-(1006,Crime),
-(1007,Drama),
-(1008,Horror),
-(1009,Music),
-(1010,Mystery),
-(1011,Romance),
-(1012,Thriller),
-(1013,War);
+(1001,'Action'),
+(1002,'Adventure'),
+(1003,'Animation'),
+(1004,'Biography'),
+(1005,'Comedy'),
+(1006,'Crime'),
+(1007,'Drama'),
+(1008,'Horror'),
+(1009,'Music'),
+(1010,'Mystery'),
+(1011,'Romance'),
+(1012,'Thriller'),
+(1013,'War');
 
 INSERT INTO director (dir_id, dir_fname, dir_lname)
 VALUES
@@ -121,13 +123,13 @@ VALUES
 (9002,'Jack Malvern'),
 (9003,'Flagrant Baronessa'),
 (9004,'Alec Shaw'),
-(9005,,),
+(9005, null),
 (9006,'Victor Woeltjen'),
 (9007,'Simon Wright'),
 (9008,'Neal Wruck'),
 (9009,'Paul Monks'),
 (9010,'Mike Salvati'),
-(9011,,),
+(9011, null),
 (9012,'Wesley S. Walker'),
 (9013,'Sasha Goldshtein'),
 (9014,'Josh Cates'),
@@ -146,7 +148,7 @@ VALUES
 (906, 9005, 8.2, 484746),
 (924, 9006, 7.3, 830095),
 (908, 9007, 8.6, 779489),
-(909, 9008, 227235),
+(909, 9008, null,227235),
 (910, 9009, 3, 195961),
 (911, 9010, 8.1, 203875),
 (912, 9011, 8.4, 862618),
@@ -154,7 +156,7 @@ VALUES
 (915, 9001, 7.7, 830095),
 (916, 9014, 4, 642132),
 (925, 9015, 7.7, 81328),
-(918, 9016, 580301),
+(918, 9016, null,580301),
 (920, 9017, 8.1, 609451),
 (921, 9018, 8, 667758),
 (922, 9019, 8.4, 511613),
@@ -216,4 +218,3 @@ VALUES
 (926, 'Spirited Away', 2001, 125, 'Japanese', '2003-09-12', 'UK'),
 (927, 'Back to the Future', 1985, 116, 'English', '1985-12-04', 'UK'),
 (928, 'Braveheart', 1995, 178, 'English', '1995-09-08', 'UK');
-
