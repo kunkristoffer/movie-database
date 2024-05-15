@@ -1,0 +1,64 @@
+INSERT INTO actor (act_id, act_fname, act_lname, act_gender)
+VALUES
+(101,'James','Stewart','M'),
+(102,'Deborah','Kerr','F'),
+(103,'Peter','OToole','M'),
+(104,'Robert','De Niro','M'),
+(105,'F. Murray','Abraham','M'),
+(106,'Harrison','Ford','M'),
+(107,'Nicole','Kidman','F'),
+(108,'Stephen','Baldwin','M'),
+(109,'Jack','Nicholson','M'),
+(110,'Mark','Wahlberg','M'),
+(111,'Woody','Allen','M'),
+(112,'Claire','Danes','F'),
+(113,'Tim','Robbins','M'),
+(114,'Kevin','Spacey','M'),
+(115,'Kate','Winslet','F'),
+(116,'Robin','Williams','M'),
+(117,'Jon','Voight','M'),
+(118,'Ewan','McGregor','M'),
+(119,'Christian','Bale','M'),
+(120,'Maggie','Gyllenhaal','F'),
+(121,'Dev','Patel','M'),
+(122,'Sigourney','Weaver','F'),
+(123,'David','Aston','M'),
+(124,'Ali','Astin','F');
+
+INSERT INTO genres (gen_id, gen_title)
+VALUES
+(1001,Action),
+(1002,Adventure),
+(1003,Animation),
+(1004,Biography),
+(1005,Comedy),
+(1006,Crime),
+(1007,Drama),
+(1008,Horror),
+(1009,Music),
+(1010,Mystery),
+(1011,Romance),
+(1012,Thriller),
+(1013,War);
+
+INSERT INTO director ()
+VALUES
+
+INSERT INTO movie_genres ()
+VALUES
+
+INSERT INTO movie_directors ()
+VALUES
+
+INSERT INTO ()
+VALUES
+
+INSERT INTO ()
+VALUES
+
+INSERT INTO ()
+VALUES
+
+INSERT INTO movie ()
+VALUES
+
