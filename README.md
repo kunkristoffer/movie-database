@@ -34,14 +34,4 @@ You can maintain your own document to save the queries which you answered. Try t
 - https://learn.microsoft.com/en-us/dotnet/csharp/linq/
 - https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient?view=net-8.0
 - https://www.w3schools.com/sql/sql_join.asp
-
-CREATE TABLE movie (
-  mov_id integer NOT NULL,
-  mov_title char(50) NOT NULL,
-  mov_year integer NOT NULL,
-  mov_time integer NOT NULL,
-  mov_lang char(50) NOT NULL,
-  mov_dt_rel date NOT NULL,
-  mov_rel_country char(5) NOT NULL,
-  PRIMARY KEY (mov_id)
-)
+- https://www.ibm.com/docs/en/psfa/7.2.1?topic=keywords-sql-common-reserved-words
