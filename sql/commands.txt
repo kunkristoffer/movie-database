@@ -18,7 +18,7 @@ WHERE mov_year = 1999;
 
 SELECT mov_title, mov_year
 FROM movie
-WHERE realist_from < 1995;
+WHERE mov_dt_rel < 1995;
 
 
 
