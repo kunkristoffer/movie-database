@@ -4,7 +4,7 @@ Group project in SQL @ kodehode.
 ## Schema Structure
 ![Alt text](assets/visualization.jpg?raw=true "Visualization of projects schema structure")
 
-## Assignment tasks
+## Assignment tasks 6/10
 - [x] Create the database and tables according to instructions and image given
 - [x] Insert the data given in excel/csv file in to respective tables
 ####
