@@ -28,3 +28,10 @@ FROM reviewer
 JOIN rating ON rating.rev_id =reviewer.rev_id
 WHERE rating.rev_stars >= 7
 AND reviewer.rev_name IS NOT NULL;
+
+SELECT mov_title
+FROM movie
+WHERE mov_id NOT IN (
+    SELECT mov_id 
+    FROM rating
+);
