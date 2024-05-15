@@ -46,7 +46,7 @@ WHERE mov_id NOT IN (
 SELECT mov_title FROM movie WHERE mov_id in (905, 907, 917);
 
 -- Question 9 From Movie Table, write a SQL query to find the movie titles that contain the word 'Boogie Nights'. Sort the result-set in ascending order by movie year. Return movie ID, movie title and movie release year.
-SELECT mov_id, mov_title, mov_dt_rel
+SELECT mov_id, mov_title, mov_dt_rel FROM movie
 WHERE mov_title LIKE '%Boogie Nights%'
 ORDER BY mov_year ASC;
 
