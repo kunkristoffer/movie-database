@@ -10,3 +10,15 @@ WHERE mov_title = 'American Beauty';
 SELECT mov_title
 FROM movie
 WHERE mov_year = 1999;
+
+// André
+
+SELECT mov_title, mov_year
+FROM movie;
+WHERE realist_from < 1995;
+
+SELECT reviewer.rev_mov_name
+FROM reviewer
+UNION
+SELECT movie.mov_title
+FROM movie:
