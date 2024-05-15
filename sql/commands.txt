@@ -13,18 +13,33 @@ SELECT mov_title
 FROM movie
 WHERE mov_year = 1999;
 
--- Andre
+-- André
 -- Question 4 From Movie Table, write a SQL query to find those movies, which were released before 1998. Return movie title.
-
+SELECT mov_title, mov_year
+FROM movie;
+WHERE realist_from < 1995;
 
 -- Question 5 From Movie Table & Reviewer table, write a SQL query to find the name of all reviewers and movies together in a single list.
-
+SELECT reviewer.rev_mov_name
+FROM reviewer
+UNION
+SELECT movie.mov_title
+FROM movie:
 
 -- Question 6 From Rating Table & Reviewer table, write a SQL query to find all reviewers who have rated seven or more stars to their rating. Return reviewer name.
-
+SELECT reviewer.rev_name
+FROM reviewer
+JOIN rating ON rating.rev_id =reviewer.rev_id
+WHERE rating.rev_stars >= 7
+AND reviewer.rev_name IS NOT NULL;
 
 -- Question 7 From Rating Table & Movie table, write a SQL query to find the movies without any rating. Return movie title.
-
+SELECT mov_title
+FROM movie
+WHERE mov_id NOT IN (
+    SELECT mov_id
+    FROM rating
+);
 
 -- Kristoffer
 -- Question 8 From Movie Table, write a SQL query to find the movies with ID 905 or 907 or 917. Return movie title.
