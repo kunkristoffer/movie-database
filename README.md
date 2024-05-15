@@ -15,9 +15,9 @@ Group project in SQL @ kodehode.
 - [ ] From Movie Table & Reviewer table, write a SQL query to find the name of all reviewers and movies together in a single list.
 - [ ] From Rating Table & Reviewer table, write a SQL query to find all reviewers who have rated seven or more stars to their rating. Return reviewer name.
 - [ ] From Rating Table & Movie table, write a SQL query to find the movies without any rating. Return movie title.
-- [ ] From Movie Table, write a SQL query to find the movies with ID 905 or 907 or 917. Return movie title.
-- [ ] From Movie Table, write a SQL query to find the movie titles that contain the word 'Boogie Nights'. Sort the result-set in ascending order by movie year. Return movie ID, movie title and movie release year.
-- [ ] From actor Table, write a SQL query to find those actors with the first name 'Woody' and the last name 'Allen'. Return actor ID.
+- [x] From Movie Table, write a SQL query to find the movies with ID 905 or 907 or 917. Return movie title.
+- [x] From Movie Table, write a SQL query to find the movie titles that contain the word 'Boogie Nights'. Sort the result-set in ascending order by movie year. Return movie ID, movie title and movie release year.
+- [x] From actor Table, write a SQL query to find those actors with the first name 'Woody' and the last name 'Allen'. Return actor ID.
 
 ## Self-imposed challenges
 - [ ] Incorporate C# with Linq (@Jorgen)
