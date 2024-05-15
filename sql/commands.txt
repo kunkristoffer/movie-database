@@ -1,0 +1,12 @@
+// Andreas
+
+SELECT mov_title, mov_year
+FROM movie;
+
+SELECT mov_year
+FROM movie
+WHERE mov_title = 'American Beauty';
+
+SELECT mov_title
+FROM movie
+WHERE mov_year = 1999;
