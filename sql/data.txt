@@ -140,9 +140,51 @@ VALUES
 
 INSERT INTO rating (mov_id, rev_id, rev_stars, num_o_ratings)
 VALUES
+(901, 9001, 8.4, 263575),
+(902, 9002, 7.9, 2007),
+(903, 9003, 8.3, 202778),
+(906, 9005, 8.2, 484746),
+(924, 9006, 7.3, 830095),
+(908, 9007, 8.6, 779489),
+(909, 9008, 227235),
+(910, 9009, 3, 195961),
+(911, 9010, 8.1, 203875),
+(912, 9011, 8.4, 862618),
+(914, 9013, 7, 862618),
+(915, 9001, 7.7, 830095),
+(916, 9014, 4, 642132),
+(925, 9015, 7.7, 81328),
+(918, 9016, 580301),
+(920, 9017, 8.1, 609451),
+(921, 9018, 8, 667758),
+(922, 9019, 8.4, 511613),
+(923, 9020, 6.7, 13091);
 
 INSERT INTO movie_cast (act_id, mov_id, role)
 VALUES
+(101, 901, 'John Scottie Ferguson'),
+(102, 902, 'Miss Giddens'),
+(103, 903, 'T.E. Lawrence'),
+(104, 904, 'Michael'),
+(105, 905, 'Antonio Salieri'),
+(106, 906, 'Rick Deckard'),
+(107, 907, 'Alice Harford'),
+(108, 908, 'McManus'),
+(110, 910, 'Eddie Adams'),
+(111, 911, 'Alvy Singer'),
+(112, 912, 'San'),
+(113, 913, 'Andy Dufresne'),
+(114, 914, 'Lester Burnham'),
+(115, 915, 'Rose DeWitt Bukater'),
+(116, 916, 'Sean Maguire'),
+(117, 917, 'Ed'),
+(118, 918, 'Renton'),
+(120, 920, 'Elizabeth Darko'),
+(121, 921, 'Older Jamal'),
+(122, 922, 'Ripley'),
+(124, 923, 'Bobby Darin'),
+(109, 909, 'J.J. Gittes'),
+(119, 919, 'Alfred Borden');
 
 INSERT INTO movie (mov_id, mov_title, mov_year, mov_time, mov_lang, mov_dt_rel, mov_rel_country)
 VALUES
@@ -173,5 +215,5 @@ VALUES
 (925, 'Seven Samurai', 1954, 207, 'Japanese', '1954-04-26', 'JP'),
 (926, 'Spirited Away', 2001, 125, 'Japanese', '2003-09-12', 'UK'),
 (927, 'Back to the Future', 1985, 116, 'English', '1985-12-04', 'UK'),
-(928, 'Braveheart', 1995, 178, 'English', '1995-09-08', 'UK');git commit -
+(928, 'Braveheart', 1995, 178, 'English', '1995-09-08', 'UK');
 
