@@ -18,13 +18,6 @@ Group project in SQL @ kodehode.
 - [x] From Movie Table, write a SQL query to find the movie titles that contain the word 'Boogie Nights'. Sort the result-set in ascending order by movie year. Return movie ID, movie title and movie release year.
 - [x] From actor Table, write a SQL query to find those actors with the first name 'Woody' and the last name 'Allen'. Return actor ID.
 
-## Self-imposed challenges
-- [ ] Incorporate C# with Linq (@Jorgen)
-  - [ ] Create a gui to access data
-  - [ ] Support crud operations
-- [ ] ~~ Parse excel/csv file for automatic import/export ~~
-
-
 ## Assesment criteria
 Work in the group to create the tables and answering the queries. So that everyone in the group create same kind of tables.
 You can maintain your own document to save the queries which you answered. Try to answer these queries by next class.
