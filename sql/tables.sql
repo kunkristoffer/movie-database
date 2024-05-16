@@ -1,13 +1,10 @@
-CREATE DATABASE MOVIES;
-USE MOVIES;
-
 CREATE TABLE movie (
   mov_id integer NOT NULL PRIMARY KEY,
   mov_title char(50) NOT NULL,
   mov_year integer NOT NULL,
   mov_time integer NOT NULL,
   mov_lang char(50) NOT NULL,
-  mov_dt_rel date NOT NULL,
+  mov_dt_rel date,
   mov_rel_country char(5) NOT NULL
 );
 
@@ -31,7 +28,7 @@ CREATE TABLE genres (
 
 CREATE TABLE reviewer (
   rev_id integer NOT NULL PRIMARY KEY,
-  rev_name char(30) NOT NULL
+  rev_name char(30)
 );
 
 CREATE TABLE movie_cast (
@@ -53,6 +50,6 @@ CREATE TABLE movie_directors (
 CREATE TABLE rating (
   mov_id integer NOT NULL FOREIGN KEY REFERENCES movie(mov_id),
   rev_id integer NOT NULL FOREIGN KEY REFERENCES reviewer(rev_id),
-  rev_stars integer NOT NULL,
-  num_o_ratings integer NOT NULL
+  rev_stars integer,
+  num_o_ratings integer
 );
